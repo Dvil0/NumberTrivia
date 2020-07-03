@@ -31,6 +31,17 @@ dev_dependencies:
   test: ^1.14.0
   mockito: ^4.1.0
 
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/trivia-icon.png"
+  adaptive_icon_background: "assets/icon/trivia-icon.png"
+
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/icon/trivia-icon.png
